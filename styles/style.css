@@ -66,6 +66,7 @@ body {
   position: relative;
   padding: 165px 50px 50px;
   background-image: url(../images/cover.jpg);
+  background-position: 50% 50%;
   z-index: 1;
 }
 
@@ -92,16 +93,23 @@ body {
   line-height: 115px;
   letter-spacing: 0.3em;
   color: #fff;
-display: inline-block;
+  display: inline-block;
   width: 100%;
 }
 
 .hero__title--center {
   text-align: center;
 }
-
 .hero__title--right {
-  text-align: right;
+  text-align:end;  
+}
+
+.hero__title--move{
+  margin-left: 30px;  
+}
+
+.hero__title--ado{
+  margin-right: -30px;
 }
 
 .hero__footer {
