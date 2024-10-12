@@ -10,10 +10,6 @@
   src: url(../fonts/Raleway-Regular.woff2);
 }
 
-* {
-  outline: 1px solid;
-}
-
 body {
   font-family: Raleway;
   padding-top: 92px;
