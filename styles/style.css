@@ -90,11 +90,15 @@ body {
 .hero__title {
   font-weight: 700;
   font-size: 100px;
-  line-height: 115px;
+  line-height: 100px;
   letter-spacing: 0.3em;
   color: #fff;
   display: inline-block;
   width: 100%;
+}
+
+.hero__title--left {
+  line-height: 115px;
 }
 
 .hero__title--center {
@@ -102,11 +106,11 @@ body {
 }
 
 .hero__title--right {
-  text-align: end;  
+  text-align: end;
 }
 
 .hero__title--move {
-  margin-left: 30px;  
+  margin-left: 30px;
 }
 
 .hero__title--ado {
