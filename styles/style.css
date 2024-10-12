@@ -100,15 +100,16 @@ body {
 .hero__title--center {
   text-align: center;
 }
+
 .hero__title--right {
-  text-align:end;  
+  text-align: end;  
 }
 
-.hero__title--move{
+.hero__title--move {
   margin-left: 30px;  
 }
 
-.hero__title--ado{
+.hero__title--ado {
   margin-right: -30px;
 }
 
